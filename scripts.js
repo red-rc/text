@@ -83,7 +83,7 @@ document.getElementById('button').onclick = function(){
             output += "x";
         }
         else if (input[i] == "u" || input[i] == "U") {
-            output += "[_]";
+            output += "J";
         }
         else {
             output += input[i];
@@ -178,7 +178,7 @@ for (i = 0; i < input.length; i++) {
         else if (input[i] == "x" || input[i] == "X") {
             output += "z";
         }
-        else if (input[i] == "[_]") {
+        else if (input[i] == "j" || input[i] == "J") {
             output += "u";
         }
         else {
